@@ -1,1 +1,1 @@
-## Repositório de exemplos de código da aprendizagem da linguagem Java.
+## Repositório de exemplos de código de aprendizagem na linguagem Java.

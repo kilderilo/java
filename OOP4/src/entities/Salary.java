@@ -1,3 +1,5 @@
+//Classe com métodos para calcular o salaŕio líquido
+
 package entities;
 
 public class Salary {
@@ -11,6 +13,7 @@ public class Salary {
     }
 
     public void increaseSalary(double percentage){
+
         grossSalary += grossSalary * percentage / 100.0;
     }
 

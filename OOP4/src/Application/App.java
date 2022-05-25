@@ -11,6 +11,7 @@ public class App {
         Scanner sc = new Scanner(System.in);
         Salary calc = new Salary(); //Instanciação da classe Salary
 
+        //Entrada de dados
         System.out.print("Insira o nome do funcionario: ");
         calc.name = sc.nextLine();
         System.out.print("Insira o salario bruto do funcionario: ");
@@ -18,6 +19,7 @@ public class App {
         System.out.print("Insira o valor do desconto: ");
         calc.Tax = sc.nextDouble();
 
+        //Chamada da classe Salary
         System.out.println();
         System.out.print("Funcionario: " + calc);
         System.out.println();
